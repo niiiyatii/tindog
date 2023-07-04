@@ -1,0 +1,56 @@
+.gradient-background {
+  /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
+ 
+/*   
+  background: rgb(2,0,36); */
+  background: linear-gradient(90deg, rgb(74, 85, 162) 0%, rgba(5,71,98,1) 5%, rgba(153,215,226,1) 14%, rgba(10,206,214,0.3254551820728291) 26%, rgba(0,181,218,0.7204131652661064) 93%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.white{
+  color: (74, 85, 162);
+}
+.grey{
+  color: #7895CB;
+}
+.blue{
+  color: #A0BFE0;
+}
+li{
+  color: #4A55A2;
+}
+#bo{
+  color: #4A55A2;
+}
+#yo{
+  color: #1e4b75;
+}
+.card-body{
+  background-color: #C5DFF8;
+}
+.card-header {
+  background-color: #a7c8e7;
+}
